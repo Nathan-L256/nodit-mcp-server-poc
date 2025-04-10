@@ -1,26 +1,15 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "Node16",
     "outDir": "./build",
-    "target": "es2021",
-    "lib": ["es2022"],
-    "jsx": "react-jsx",
-    "module": "es2022",
-    "moduleResolution": "Bundler",
-    "types": [
-      "node"
-    ],
-    "resolveJsonModule": true,
-    "allowJs": true,
-    "checkJs": false,
-    "isolatedModules": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./src",
     "strict": true,
-    "skipLibCheck": true
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": [ "test/**/*.ts", "scripts/**/*.ts", "src/**/*.ts"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }

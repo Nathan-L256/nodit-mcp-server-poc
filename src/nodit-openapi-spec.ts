@@ -1,4 +1,4 @@
-{
+export default {
   "openapi": "3.1.1",
   "info": {
     "title": "Nodit Data API",
