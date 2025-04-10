@@ -11,7 +11,7 @@ export default {
         "protocol": {
           "enum": [
             "ethereum",
-            "aptos",
+            "base",
             "polygon",
             "kaia",
             "arbitrum",
