@@ -11,7 +11,7 @@
   "files": [
     "build"
   ],
-  "main": "index.js",
+  "main": "build/index.js",
   "private": true,
   "author": "nathan",
   "description": "nodit mcp server",

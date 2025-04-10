@@ -6,21 +6,17 @@ Add the following to your `.cursor/mcp.json` or `claude_desktop_config.json` (Ma
 {
   "mcpServers": {
     "noditApi": {
-      "command": "npx",
-      "args": ["-y", "/path/to/local/nodit-mcp"],
+      "command": "node",
+      "args": ["/path/to/local/nodit-mcp-server-poc"],
       "env": {
-        "OPENAPI_MCP_HEADERS": "{\"X-API-KEY\": \"****\"}"
+        "NODIT_API_KEY": "****"
       }
     }
   }
 }
 ```
 
-Don't forget to replace `****` with your api key.
-
-### Examples
-
-
+Don't forget to replace `****` with your api key and `/path/to/local/` with your mcp server.
 
 ### Development
 
